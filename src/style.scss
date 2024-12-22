@@ -625,6 +625,7 @@ header {
     .love {
       background: transparent;
       border: none;
+      width: 25%;
       @media screen and (max-width: 768px) {
         width: fit-content;
         margin: auto;
