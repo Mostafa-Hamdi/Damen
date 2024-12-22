@@ -592,6 +592,7 @@ header {
     font-weight: 500;
     color: #b93c3c;
   }
+
   .add-cart {
     display: flex;
     align-items: center;
@@ -620,6 +621,24 @@ header {
       padding: 7px 10px;
       height: 40px;
       border-radius: 6px;
+    }
+    .love {
+      @media screen and (max-width: 768px) {
+        background: transparent;
+        border: none;
+        width: fit-content;
+        margin: auto;
+      }
+      svg {
+        @media screen and (max-width: 768px) {
+          background-color: transparent;
+          border-radius: 20px;
+          border-top: solid 1px #eee;
+          border-left: solid 1px #eee;
+          border-top-left-radius: 20px !important;
+          border-radius: 0px;
+        }
+      }
     }
   }
 }
